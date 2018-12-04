@@ -1,0 +1,21 @@
+html{
+    display: block;
+}
+body {
+    margin: 35px;
+    background-color: pink;
+}
+
+h1{
+    font-size:200%;
+}
+#maincontent {
+    display: flex;
+}
+#mainmenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 310px;
+    margin-right: 35px;
+}
