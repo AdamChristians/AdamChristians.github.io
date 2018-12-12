@@ -1,39 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
+html{
+    display: block;
+}
+body {
+    margin: 35px;
+    background-color: pink;
+}
 
-<head>
-	<meta charset="utf-8">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	
-	<link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/.css">
-</head>
+h1{
+    font-size:200%;
+}
+#maincontent {
+    display: flex;
+}
+#mainmenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 310px;
+    margin-right: 35px;
+}
 
-<body>
-<img src="Donut%20Delights/NEWLOGO.png" alt="Donut_Delights_Logo">
-	<h1>Donuts</h1>
-    <h1>Coffee</h1>
-    <h1>Specialty Drinks</h1>
-    <h1>About Us</h1>
-    <h1>Join Our Team</h1>
-    
-    
-    <h2>Bakers Dozen Donuts:</h2><h3>Chocolate frosted, vanilla frosted, boston cream, jelly filled, cream filled, glazed, chocolate glazes marble twist, sugar raised, plain donut, plain cruller, honey wheat, jelly puff, cream puff, cofee roll.</h3>
-    
-    <h2>Regular donuts:</h2>
-    <h3>Chocolate frosted, vanilla frosted, boston cream, jelly filled, cream filled, glazed, chocolate glazes marble twist, sugar raised, plain donut, plain cruller, honey wheat, jelly puff, cream puff, cofee roll.</h3>
-    
-    <h2>Fancy Donut:</h2>
-    <h3>Bowtie, ẻclair, apple turnover, fancy coffee roll, french cruller.</h3>
-    
-    <h2>Top Sellers:</h2>
-    <ul>
-    <li>Pistachio Pinwheels</li>
-    <li>Boston Cream Delights</li>
-    <li>Chocolate Confetti</li>
-    <li>Marshmellow Mayhems</li>
-    <li>French Twists</li>
-    <li>Bulls Horns</li>
-    </ul>
-</body>
-</html>
+p.coffee {
+    font-weight: bold;
+}
+
+#BakeryFire {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+#DonutShelf {
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+#Vets {
+    float: left;
+    width: 40%;
+    padding: -6px;
+}
+
+#InsideStore {
+    float: left;
+    position: relative;
+        top: -45px;
+    width: 43%;
+    padding: 50px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input, label{
+    display:block
+}
